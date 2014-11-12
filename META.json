@@ -65,7 +65,7 @@
    "provides" : {
       "Test::JSON::RPC::Autodoc" : {
          "file" : "lib/Test/JSON/RPC/Autodoc.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Test::JSON::RPC::Autodoc::Request" : {
          "file" : "lib/Test/JSON/RPC/Autodoc/Request.pm"
@@ -88,6 +88,6 @@
          "web" : "https://github.com/yusukebe/Test-JSON-RPC-Autodoc"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:YUSUKEBE"
 }
