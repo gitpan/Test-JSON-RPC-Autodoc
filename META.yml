@@ -27,7 +27,7 @@ no_index:
 provides:
   Test::JSON::RPC::Autodoc:
     file: lib/Test/JSON/RPC/Autodoc.pm
-    version: '0.02'
+    version: '0.03'
   Test::JSON::RPC::Autodoc::Request:
     file: lib/Test/JSON/RPC/Autodoc/Request.pm
   Test::JSON::RPC::Autodoc::Response:
@@ -41,7 +41,7 @@ requires:
   HTTP::Message: '0'
   JSON: '0'
   Path::Tiny: '0'
-  Plack: '0'
+  Plack: '1.0033'
   Test::Simple: '0'
   Text::Xslate: '0'
   parent: '0'
@@ -50,5 +50,5 @@ resources:
   bugtracker: https://github.com/yusukebe/Test-JSON-RPC-Autodoc/issues
   homepage: https://github.com/yusukebe/Test-JSON-RPC-Autodoc
   repository: git://github.com/yusukebe/Test-JSON-RPC-Autodoc.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:YUSUKEBE
